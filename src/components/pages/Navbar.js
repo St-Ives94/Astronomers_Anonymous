@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {GiMoonOrbit} from 'react-icons/gi';
 import { FaBars, FaTimes} from 'react-icons/fa';
@@ -8,6 +8,9 @@ import { FaBars, FaTimes} from 'react-icons/fa';
 
 
 function Navbar() {
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click)
     return (
         <>
         <div className="navbar">
@@ -16,7 +19,47 @@ function Navbar() {
                     Astronomers Anonymous
                     <GiMoonOrbit className="navbar-icon"/>
                 </Link>
-                <div className="menu-icon"/>
+                <div className="menu-icon" onClick={handleClick}>
+                {click ? <FaTimes /> : <FaBars />}
+                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                        <Link to="/" className="nav-links">
+                            Home
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/" className="nav-links">
+                        Find an Observatory
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/log-in" className="nav-links">
+                            Log In
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/contact-us" className="nav-links">
+                            Contact Us
+                        </Link>
+                    </li>
+                    <li className='nav-btn'>
+                        {button ? (
+                            <Link to="/sign-up" className="btn-link">
+                                <Button buttonStyle='btn--outline'>
+                                    Sign Up
+                                </Button>
+                            </Link>
+                        ): (
+                            <Link to="/sign-up" className="btn-link">
+                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
+                                    Sign Up
+                                </Button>
+                            </Link>
+                        )}
+                    </li>
+
+                </ul>
             </div>
         </div>
         </>
