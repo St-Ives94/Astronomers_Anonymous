@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import {GiMoonOrbit} from 'react-icons/gi';
+import { FaBars, FaTimes} from 'react-icons/fa';
 import { MenuItems } from './MenuItems';
 import { Button } from '../Button';
 import './Navbar.css';
@@ -11,7 +14,7 @@ class Navbar extends Component {
     }
     render() {
         return <nav className="NavbarItems">
-            <h1 className="navbar-logo">Astronomers Anonymous  <i className="far fa-moon"></i>
+            <h1 className="navbar-logo">Astronomers Anonymous  <GiMoonOrbit className="navbar-icon"/>
 </h1>
             <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
