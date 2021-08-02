@@ -1,10 +1,14 @@
-.NavbarItems {
+.navbar {
     background: linear-gradient(90deg, rgb(116, 116, 191) 0%, rgba(52, 138, 199, 1) 100%);
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
 }
 
 .navbar-logo {
@@ -14,12 +18,17 @@
     cursor: pointer;
     font-size: 2.4rem;
     font-weight: normal;
+    text-decoration: none;
+}
+.navbar-icon {
+    /* padding: 1.5rem; */
+    margin-left: 7px;
 }
 
-.fa-react {
+/* FaBars, FaTimes {
     margin-left: 0.5rem;
     font-size:1.6rem;
-}
+} */
 
 .nav-menu {
     display: grid;
@@ -27,7 +36,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 98vw;
     justify-content: end;
     margin-right: 2rem;
 }
@@ -49,7 +58,7 @@
     color: #fff;
 }
 
-.nav-links-mobile {
+.nav-btn {
     display: none;
 }
 
@@ -58,7 +67,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .navbar {
         position: relative;
     }
 
@@ -95,6 +104,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        text-decoration: none;
     }
     .menu-icon {
         display: block;
@@ -109,7 +119,7 @@
         color: #fff;
         font-size: 2rem;
     }
-    .nav-links-mobile {
+    .nav-btn {
         display: block;
         text-align: center;
         padding: 1.5rem;
@@ -121,8 +131,9 @@
         color: #fff;
         font-size: 1.5rem;
         font-family: 'Noto Sans JP', sans-serif;
+        text-decoration: none;
     }
-    .nav-links-mobile:hover {
+    .nav-btn:hover {
         background: #fff;
         color: #6568f4;
         transition: 250ms;
