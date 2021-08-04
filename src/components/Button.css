@@ -9,8 +9,8 @@
     border: none;
     cursor: pointer;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-right: 15px;
-    width: 136px;
+    /* margin-right: 15px;
+    width: 136px; */
     white-space: nowrap;
 }
 
@@ -19,7 +19,7 @@
     transition: all 0.3s ease-out;
     background: #FFFFFF;
     color: #2C365E;
-    transition: 300ms;
+    /* transition: 3/00ms; */
 }
 
 .btn--primary {

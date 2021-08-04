@@ -2,7 +2,7 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Welcome to our Club',
+    topLine: 'the public secret club',
     headline: 'Welcome to our Club',
     description: 'Welcome to our Clu',
     buttonLabel: 'SHHHH!!!',
