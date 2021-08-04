@@ -3,9 +3,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'the public secret club',
-    headline: 'Welcome to our Club',
-    description: 'Welcome to our Clu',
-    buttonLabel: 'SHHHH!!!',
+    headline: 'Welcome to our "Space"',
+    description: '',
+    buttonLabel: 'Shhh!',
     imgStart: '',
     img: '/images/astro-in-field.jpg',
 
