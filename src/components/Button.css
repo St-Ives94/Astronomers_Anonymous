@@ -15,7 +15,7 @@
 }
 
 .btn:hover {
-    padding: 8px 20px;
+    /* padding: 8px 20px; */
     transition: all 0.3s ease-out;
     background: #FFFFFF;
     color: #2C365E;
@@ -59,7 +59,7 @@
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
+    background: #2c365e;
     transition: all 0.3s ease-out;
 }
 

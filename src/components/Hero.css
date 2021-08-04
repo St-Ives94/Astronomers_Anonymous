@@ -1,6 +1,7 @@
 .home__hero {
     color: #FFF;
     padding: 160px 0;
+
 }
 
 .home__hero-row {
@@ -13,7 +14,9 @@
     margin-left: -15px;
     margin-bottom: -15px;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: stretch;
+    justify-content: center;
+
 }
 
 .col {
@@ -74,6 +77,10 @@ flex-basis: 50%;
     padding-right: 0;
 }
 
+/* .show-stars {
+    : url('../../images/aldebaran-s.jpg');
+} */
+
 img {
     border: 0;
     max-width: 100%;
@@ -85,5 +92,22 @@ img {
     .container {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+}
+@media screen and (min-width: 880px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media screen and (max-width: 768) {
+    .home__hero-text-wrapper {
+        padding-bottom: 65px;
+    }
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
     }
 }

@@ -13,11 +13,11 @@ function Hero({
     buttonLabel,
     img,
     alt,
-    imgStart
+    imgStart,
 }) {
     return (
         <>
-            <div className={lightBg ? 'home__hero' : 'home__hero darkBg'}>
+            <div className={lightBg ? 'home__hero' : 'home__hero darkBg'} style={lightBg ? {backgroundImage: 'url(/images/blue-stars2.jpg)', backgroundSize: 'cover'} : {backgroundImage: 'none'}} >
                 <div className="container">
                     <div className="row home__hero-row"
                     style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
