@@ -79,13 +79,13 @@
   }
 
   .footer-link-items a {
-    color: #fff;
+    color: #66C3D1;
     text-decoration: none;
     margin-bottom: 0.5rem;
   }
 
   .footer-link-items a:hover {
-    color: #e9e9e9;
+    color: #C9A2D2;
     transition: 0.3s ease-out;
   }
 
@@ -99,7 +99,7 @@
 
   /* Social Icons */
   .social-icon-link {
-    color: #fff;
+    color: #C9A2D2;
     font-size: 24px;
   }
 
