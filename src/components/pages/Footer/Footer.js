@@ -76,7 +76,7 @@ function Footer() {
               Astronomers Anonymous
             </Link>
           </div>
-          <small className='website-rights'>Ivory Smith © 2020 </small>
+          {/* <small className='website-rights'>Ivory Smith © 2020 </small> */}
           <small className='website-rights'> Photos from <Link to="https://www.unsplash.com" aria-label="Unsplash" className="footer-link">Unsplash © </Link></small>
 
           <div className='social-icons'>

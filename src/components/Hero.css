@@ -57,7 +57,7 @@ flex-basis: 50%;
 }
 
 .darkBg {
-    background-color: #1c2237;
+    background-color: #4E5255;
 }
 
 .home__hero-subtitle {
@@ -76,10 +76,6 @@ flex-basis: 50%;
     margin: 0 0 0 10px;
     padding-right: 0;
 }
-
-/* .show-stars {
-    : url('../../images/aldebaran-s.jpg');
-} */
 
 img {
     border: 0;
