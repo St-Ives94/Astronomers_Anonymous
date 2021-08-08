@@ -13,7 +13,7 @@
   .btn--primary {
     background-color: var(--primary);
     color: #242424;
-    border: 1px solid var(--primary);
+    border: 1px solid #4E5255;
   }
 
   .btn--outline {
@@ -43,7 +43,7 @@
     background-color: #2c365e;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #66C3D1;
+    border: 1px solid #4E5255;
     transition: all 0.3s ease-out;
   }
 
