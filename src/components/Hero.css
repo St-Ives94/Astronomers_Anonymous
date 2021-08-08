@@ -50,6 +50,7 @@ flex-basis: 50%;
     color: #66c366;
     font-weight: 600;
     line-height: 1.1;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 .dark {
@@ -57,7 +58,7 @@ flex-basis: 50%;
 }
 
 .darkBg {
-    background-color: #6373B6;
+    background-color: #5c6eb6;
 }
 
 .home__hero-subtitle {
