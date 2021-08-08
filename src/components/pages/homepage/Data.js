@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'the public secret club',
-    headline: 'Welcome to our "Space"',
+    headline: 'Welcome to our Space ✨',
     description: '',
     buttonLabel: 'Shhh!',
     imgStart: '',
