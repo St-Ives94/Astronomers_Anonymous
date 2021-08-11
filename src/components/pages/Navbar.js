@@ -46,7 +46,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/observatory-map" className="nav-links" onClick={closeMobileMenu}>
                         Find an Observatory
                         </Link>
                     </li>

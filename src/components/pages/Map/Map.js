@@ -1,10 +1,11 @@
 import React from 'react';
-// import Hero from '../../Hero';
+import './Map.css'
 import GoogleApiWrapper from './MapContainer'
 function Map() {
     return (
         <>
             <GoogleApiWrapper />
+            {/* <Footer /> */}
         </>
     )
 }

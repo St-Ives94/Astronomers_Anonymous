@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
-const mapStyles = {
-  width: '80%',
-  height: '80%',
-  position: 'relative',
+// const mapStyles = {
+//   width: '100%',
+//   height: '100%',
+//   position: 'relative',
 
-};
+// };
 // const image
 
 export class MapContainer extends Component {
@@ -14,12 +14,17 @@ export class MapContainer extends Component {
         super(props);
 
         this.state = {
-          stores: [{lat: 47.49855629475769, lng: -122.14184416996333},
-                  {latitude: 47.359423, longitude: -122.021071},
-                  {latitude: 47.2052192687988, longitude: -121.988426208496},
-                  {latitude: 47.6307081, longitude: -122.1434325},
-                  {latitude: 47.3084488, longitude: -122.2140121},
-                  {latitude: 47.5524695, longitude: -122.0425407}]
+          stores: [{latitude: 34.391520, longitude: -118.080950},
+                  {latitude: 34.114540, longitude: -118.284637},
+                  {latitude: 34.789680, longitude: -96.683130},
+                  {latitude: 32.867409, longitude: -116.418747},
+                  {latitude: 34.086106, longitude: -117.312651},
+                  {latitude: 34.225437, longitude: -118.057232},
+                  {latitude: 34.118509, longitude: -118.300476},
+                  {latitude: 38.726799, longitude: -120.868048},
+                  {latitude: 35.699485, longitude: -111.666170},
+                  {latitude: 32.358426, longitude: -111.700619}
+                ]
         }
       }
 
@@ -40,18 +45,19 @@ export class MapContainer extends Component {
       }
   render() {
     return (
-        <div style={{width: '200px', height: '200px', }}>
-        <Map
-        google={this.props.google}
-        zoom={10}
-        style={mapStyles}
-        initialCenter={{
-          lat: 47.49855629475769, lng: -122.14184416996333
-        }}>
-            {this.displayMarkers()}
-        </Map>
+        <div className="container">
+          <div className='map-container'>
+          <Map
+          google={this.props.google}
+          zoom={6}
+          // style={mapStyles}
+          initialCenter={{
+            lat: 34.114540, lng: -118.284637
+          }}>
+              {this.displayMarkers()}
+          </Map>
+          </div>
         </div>
-
 
     );
   }
