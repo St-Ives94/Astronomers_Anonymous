@@ -22,7 +22,7 @@ export const homeObjTwo = {
     buttonLabel: 'Let\'s Have a Look 👀',
     imgStart: '',
     img: '/images/observe1.jpg',
-    alt: 'Vault'
+    alt: 'Observatory'
   };
 
   export const homeObjThree = {
