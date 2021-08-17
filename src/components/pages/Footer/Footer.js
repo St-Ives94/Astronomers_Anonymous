@@ -33,7 +33,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline' onclick={letsAlert("Thank you for signing up with us!")}>Subscribe</Button>
+            <Button buttonStyle='btn--outline' onClick={letsAlert("Thank you for signing up with us!")}>Subscribe</Button>
           </form>
         </div>
       </section>
