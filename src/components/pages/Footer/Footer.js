@@ -13,9 +13,9 @@ import { GiMoonOrbit } from 'react-icons/gi';
 
 // IoArrowBackCircleSharp
 function Footer() {
-  const letsAlert = (message) => {
-    alert(message);
-  }
+//   const letsAlert = (message) => {
+//     alert(message);
+//   }
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -33,7 +33,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline' onClick={letsAlert("Thank you for signing up with us!")}>Subscribe</Button>
+            <Button buttonStyle='btn--outline' /*onClick={letsAlert("Thank you for signing up with us!")}*/>Subscribe</Button>
           </form>
         </div>
       </section>
