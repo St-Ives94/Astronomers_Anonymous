@@ -5,6 +5,7 @@ function Map() {
     return (
         <>
             <GoogleApiWrapper />
+            {/* <List /> */}
             {/* <Footer /> */}
         </>
     )
