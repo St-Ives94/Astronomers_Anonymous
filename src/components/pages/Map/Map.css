@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: center;
     align-items: flex-start;
-    height: 800px;
+    height: 900px;
 }
 @media screen and (max-height: 700px) {
     .map-container {
