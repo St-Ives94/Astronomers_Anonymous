@@ -83,6 +83,7 @@ img {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 991px) {

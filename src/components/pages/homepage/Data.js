@@ -5,7 +5,7 @@ export const homeObjOne = {
     topLine: 'the public secret club',
     headline: 'Welcome to our Space ✨',
     description: 'We are a group of astronomy enthusiasts that are interested in creating a community for others alike! We welcome all corners of the universe to join us. ',
-    buttonLabel: 'Join the Community',
+    buttonLabel: 'Join the Community 👩🏼‍🚀🧑🏽‍🚀👨‍🚀 ',
     imgStart: '',
     img: '/images/astro-in-field.jpg',
     alt: 'astro in field'
@@ -30,9 +30,9 @@ export const homeObjTwo = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Events',
-    headline: 'Super fast and simple onboarding process',
+    headline: 'Meet "out of this world" people',
     description:
-      "This is current placeholder",
+      "Build lasting friendships that will last longer than the universe itself!",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: '/images/group3.jpg',
