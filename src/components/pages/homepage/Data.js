@@ -36,19 +36,19 @@ export const homeObjTwo = {
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: '/images/group3.jpg',
-    alt: 'Vault'
+    alt: 'group '
   };
 
   export const homeObjFour = {
     lightBg: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'This is a Placeholder Title',
+    topLine: 'Social',
+    headline: 'Join the social space!',
     description:
-      'This is placeholder text',
-    buttonLabel: 'Sign Up Now',
+      'Head up to meet fellow enthusiasts of space on our multiple platforms! ',
+    buttonLabel: 'Join the Team',
     imgStart: 'start',
     img: '/images/group1.jpg',
-    alt: 'Vault'
+    alt: 'Group by fire'
   };
