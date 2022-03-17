@@ -3,6 +3,10 @@ import './Footer.css';
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
+  PopupboxManager,
+  PopupboxContainer
+} from 'react-popupbox';
+import {
   FaFacebook,
   FaInstagram,
   FaYoutube,
@@ -12,10 +16,16 @@ import {
 import { GiMoonOrbit } from 'react-icons/gi';
 
 // IoArrowBackCircleSharp
+// const letsAlert = (message) => {
+//   window.postMessage(message);
+// }
+// openPopUp = () => {
+//   const thisAlert = (
+//   <p className="subscribed">Thank you for signing up with us!</p>
+//   )
+//   PopupboxManager.open({thisAlert})
+// }
 function Footer() {
-//   const letsAlert = (message) => {
-//     alert(message);
-//   }
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -33,7 +43,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline' /*onClick={letsAlert("Thank you for signing up with us!")}*/>Subscribe</Button>
+            <Button buttonStyle='btn--outline' /*onClick={this.openPopUp}*/>Subscribe</Button>
           </form>
         </div>
       </section>

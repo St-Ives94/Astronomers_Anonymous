@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/observatory-map" component={GoogleMap} />
+      <Switch>
+        <Route exact path="/observatory-map" component={GoogleMap} />
       </Switch>
       <Footer />
     </Router>
