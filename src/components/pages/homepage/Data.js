@@ -39,16 +39,16 @@ export const homeObjTwo = {
     alt: 'Vault'
   };
 
-  export const homeObjFour = {
-    lightBg: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'This is a Placeholder Title',
-    description:
-      'This is placeholder text',
-    buttonLabel: 'Sign Up Now',
-    imgStart: 'start',
-    img: '/images/group1.jpg',
-    alt: 'Vault'
-  };
+  // export const homeObjFour = {
+  //   lightBg: true,
+  //   lightText: true,
+  //   lightTextDesc: true,
+  //   topLine: 'DATA ANALYTICS',
+  //   headline: 'This is a Placeholder Title',
+  //   description:
+  //     'This is placeholder text',
+  //   buttonLabel: 'Sign Up Now',
+  //   imgStart: 'start',
+  //   img: '/images/group1.jpg',
+  //   alt: 'Vault'
+  // };

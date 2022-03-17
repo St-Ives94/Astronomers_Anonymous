@@ -9,7 +9,7 @@ function Home() {
             <Hero {...homeObjThree} />
         <Hero {...homeObjTwo}/>
         {/* <Pricing /> */}
-        <Hero {...homeObjFour} />
+        {/* <Hero {...homeObjFour} /> */}
         </>
     )
 }
