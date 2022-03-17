@@ -37,7 +37,7 @@ export const homeObjTwo = {
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: '/images/group3.jpg',
-    alt: 'Vault'
+    alt: 'group '
   };
 
   // export const homeObjFour = {
