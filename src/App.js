@@ -11,9 +11,13 @@ function App() {
   return (
     <Router>
       <Navbar />
-        <Route path="/" exact component={Home} />
       <Switch>
-        <Route exact path="/observatory-map" component={GoogleMap} />
+        <Route path="/" exact component={Home}>
+          <Home/>
+          </Route>
+        <Route exact path="/observatory-map" component={GoogleMap} >
+          <GoogleMap/>
+          </Route>
       </Switch>
       <Footer />
     </Router>
